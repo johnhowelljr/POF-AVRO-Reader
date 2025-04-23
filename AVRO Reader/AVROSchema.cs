@@ -1,4 +1,8 @@
 ﻿// Base class for all Avro schema types
+//
+// I only support the record schema at the moment because it's all I needed.
+// will update more as time goes on
+//
 using System.Text.Json;
 
 public abstract class AvroSchema
